@@ -1,15 +1,8 @@
-* {
-    box-sizing: border-box;
-}
-
-
-
 .wrapper {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container {
@@ -17,17 +10,14 @@
     flex-wrap: wrap;
     height: 500px;
     width: 500px;
-    gap: 2px;
+    gap: 1px;
     justify-content: center;
-    align-items: center;
     align-content: center;
+    
 }
 
 .grid-piece {
     background-color: lightgrey;
-    height: 25px;
-    width: 25px;
-    
 }
 
 .grid-piece:hover {
@@ -35,5 +25,6 @@
 }
 
 .button {
-    margin-bottom: 20px;
+    margin: 50px 0;
+    padding: 20px;
 }
